@@ -8,6 +8,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>The Big Fat String exercise</h1>
+    <div id="interface">
+      <p>Type input here:</p>
+      <input type="text" name="input_text" id="input_text" />
+      <p>Choose operator:</p>
+      <select name="operator" id="operator">
+        <option value="1">Make the first character in a name uppercase, and the rest lowercase</option>
+        <option value="2">Find the first name</option>
+        <option value="3">Find the length of the first name</option>
+        <option value="4">Find the middle name start and end position, and the middle name itself in a full name string</option>
+        <option value="5">Check if a filename is .png or .jpg</option>
+        <option value="6">Hide a password with the correct number of *s</option>
+        <option value="7">Make the third character uppercase</option>
+        <option value="8">Make a character uppercase, if it follows a space or a hyphen</option>
+      </select>
+      <p>Output here:</p>
+      <input type="text" name="output_text" id="output_text" />
+      <button id="generate">Generate output</button>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
